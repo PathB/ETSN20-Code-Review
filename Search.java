@@ -1,14 +1,12 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-import java.io.FileNotFoundException;
 
 public class Search {
 
     public static void main(String[] args) {
             Search s = new Search();
             s.searchMethod(args[0], args[1]);
-        
     }
 
     public void searchMethod(String pattern, String file){
