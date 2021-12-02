@@ -13,9 +13,9 @@ public class Search {
         try{
             Scanner scan = new Scanner(new File(file));
             while(scan.hasNextLine()){
-                String temp= scan.nextLine();
-                if(temp.contains(pattern)){
-                    System.out.println(temp);
+                String line= scan.nextLine();
+                if(line.contains(pattern)){
+                    System.out.println(line);
                 }
             }
 
